@@ -1,6 +1,23 @@
 @media screen and (max-width:576px) {
-    .navbar,.nav-links{
+    .navbar,
+    .nav-links
+    ,.teams
+    ,.our-fatures{
         flex-direction: column;
     }
-    
+    .tim-img-contaner{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .our-fatures{
+        margin-left: 20px;
+    }
+}
+/*medium divise*/
+@media screen and (min-width:577px) and (max-width:992px) {
+.teams{
+    flex-direction: column;
+}
+.our-fatures{
+    margin: 50px auto;
+}
 }
