@@ -101,3 +101,90 @@ main{
 #quick-list{
     font-weight: 500;
 }
+/*section/futur2 */
+.fact-contaner{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+
+}
+.fact{
+    border: 1px solid #FF900E;
+    width: 240px;
+    height: 240px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.fact-number{
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.fact-name{
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.fact-descript{
+    max-width: 540px;
+}
+/*section3*/
+.sponsors-info{
+    max-width: 540px;
+    margin: 50px auto;
+    text-align: center;
+}
+.sponsor-componis{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.sponsor-componis img{
+    filter: grayscale(100%);
+}
+/*section 1*/
+.fatures{
+    gap: 140px;
+}
+#futurs-section-title{
+    border-left: 5px solid #FF900E ;
+    padding-left: 20px;
+}
+.faturs-card,.futur-title{
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+   
+}
+.faturs-card{
+    padding: 30px;
+    box-shadow: 0 4px 30px 0;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+#btn-n{
+    padding: 45px 42px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left:-100px ;
+    margin-top: -100px;
+}
+#exprence{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.footer{
+    background: #FFF4E7;
+    max-width: 1440px;
+    padding: 30px 30px;
+    margin: 30px 30px;
+    border: none;
+    border-radius: 16px;
+}
+.footer p{
+    
+    text-align: center;
+    align-items: center;
+}

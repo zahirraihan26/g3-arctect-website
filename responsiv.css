@@ -2,22 +2,47 @@
     .navbar,
     .nav-links
     ,.teams
-    ,.our-fatures{
+    ,.our-fatures,
+    .fatures{
         flex-direction: column;
     }
-    .tim-img-contaner{
-        grid-template-columns: repeat(1,1fr);
+    .tim-img-contaner ,
+     .fact-contaner
+     ,.sponsor-componis{
+        grid-template-columns: 1fr;
     }
     .our-fatures{
         margin-left: 20px;
     }
+    .fact-contaner, .sponsor-componis{
+        justify-content: center;
+        gap: 24px;
+    }
+    .f-a{
+        width: 100%;
+    }
+    #btn-n{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        
+    }
 }
 /*medium divise*/
 @media screen and (min-width:577px) and (max-width:992px) {
-.teams{
+.teams,.fatures{
     flex-direction: column;
 }
 .our-fatures{
     margin: 50px auto;
 }
+.sponsor-componis ,.fact-contaner{
+    grid-template-columns: repeat(2,1fr);
+    gap: 50px;
+    justify-items: center;
+}
+ #btn-n{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        
+    }
 }
